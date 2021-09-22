@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.row1 {
+    padding: 4rem 3rem;
+}
+
+.navbar {
+    background-color: white !important;
+    width: 90%;
+}
+
+.navbar-brand {
+    font-size: 1.7rem !important;
+    font-weight: bold !important;
+}
+
+.nav-link {
+    font-weight: bold !important;
+    padding-right: 3rem !important;
+}
+
+.heading {
+    font-family: 'Ultra', serif;
+    padding: 2rem 4rem;
+}
+
+.abc {
+    padding-left: 5rem;
+}
+
+.abc1 {
+    padding-left: 12rem;
+}
+
+.row11 {
+    padding: 2rem 0;
+}
+
+.col2 {
+    padding-left: 3rem; 
+}
+
+.icon1 {
+    width: 45px;
+    padding-bottom: 1rem;
+}
+
+.para {
+    font-size: 17px;
+}
+
+.imgClass {
+    width: 98%;
+    height: 100%;
+    /* background-image: url("/images/img11.png");
+    background-size: cover;
+    background-repeat: no-repeat; */
+    
+}
+
+
+
+@media (min-width:360px) and (max-width:640px) {
+    .row1 {
+        padding: 1rem 1.5rem;
+    }
+
+    .navbar-brand {
+        font-size: 1rem !important;
+    }
+    
+    .nav-link {
+        padding-right: 1rem !important;
+        font-size: 12px !important;
+    }
+
+    .heading {
+        padding: 2rem;
+    }
+
+    .abd {
+        font-size: 35px;
+    }
+
+    .abc {
+        font-size: 25px;
+        padding-left: 2rem;
+    }
+
+    .abc1 {
+        font-size: 25px;
+        padding-left: 4rem;
+    }
+
+    .row11 {
+        padding: 1rem 0;
+    }
+
+    .col2 {
+        padding-left: 1.5rem;
+    }
+
+    .icon1 {
+        width: 25px;
+        padding-bottom: 0.5rem;
+    }
+
+    .para {
+        font-size: 12px;
+    }
+
+    .imgClass {
+        padding-right: 1rem;
+        width: 110%;
+    }
+    
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+
+    .row1 {
+        padding: 4rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem !important;
+    }
+    
+    .nav-link {
+        padding-right: 2rem !important;
+        font-size: 18px !important;
+    }
+
+    .heading {
+        padding: 2rem;
+    }
+
+    .row11 {
+        padding: 1.5rem 1rem;
+    }
+
+    .col2 {
+        padding-left: 3.5rem;
+    }
+
+    .icon1 {
+        width: 35px;
+        padding-bottom: 1rem;
+    }
+
+    .para {
+        font-size: 18px;
+    }
+
+    .imgClass {
+        padding-right: 0.5rem;
+        width: 105%;
+    }
+
+}
